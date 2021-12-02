@@ -11,3 +11,6 @@
 #### Trouble shooting 
 - reinitialize system
 > Save Final coordinate
+
+## Source 
+[1]J.-H. Shin and G.-S. Shim, “A Study on Deep Learning Based RobotArm System,” Proceedings of the Korea Information Processing Society Conference, pp. 901–904, Nov. 2020.
