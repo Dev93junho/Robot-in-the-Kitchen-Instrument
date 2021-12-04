@@ -12,9 +12,9 @@ import numpy as np
 
 def Path_move(request):
     #link length
-    l1=25
-    l2=20
-    l3=5
+    l1=50
+    l2=30
+    l3=21
     # go position
     pos_x=request.fpos_x
     pos_y=request.fpos_y
@@ -107,19 +107,6 @@ def angle_filter(theta):
     if theta<0:
         theta=-theta
     return theta
-"""
-def angle_filter123(theta):
-    
-    if theta<0:
-        theta=-theta
-
-    theta=mt.pi/2-theta
-
-    if not 0<=theta<=mt.pi/2:
-        theta=theta-mt.pi
-    return theta"""
-        
-
 
 rospy.init_node('Path_move', anonymous=True)
 service=rospy.Service('Path_move',path_move,Path_move)
