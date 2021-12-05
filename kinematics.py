@@ -1,14 +1,12 @@
 #!/usr/bin/env python
 
 import rospy
-from std_msgs.msg import String
-from trajectory_msgs.msg import JointTrajectory
-from trajectory_msgs.msg import JointTrajectoryPoint
-import math as mt
-from control_msgs.msg import JointTrajectoryControllerState
-from han2um_test.srv import *
+# from std_msgs.msg import String
+# from trajectory_msgs.msg import JointTrajectory
+# from trajectory_msgs.msg import JointTrajectoryPoint
+# from control_msgs.msg import JointTrajectoryControllerState
 import numpy as np
-
+import math as mt
 
 def Path_move(request):
     #link length
